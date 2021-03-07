@@ -115,5 +115,8 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
-# local
+# local environment and config files
 *.local
+
+# compiled script
+build

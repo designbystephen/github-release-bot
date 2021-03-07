@@ -6,7 +6,8 @@
   "scripts": {
     "test": "cross-env NODE_ENV=test mocha 'src/**/*.test.js'",
     "start": "babel-node src",
-    "start:forever": "forever start src"
+    "start:forever": "forever start build",
+    "build": "babel src --out-dir build"
   },
   "dependencies": {
     "forever": "^3.0.4",
