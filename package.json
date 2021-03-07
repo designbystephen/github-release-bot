@@ -5,9 +5,11 @@
   "license": "MIT",
   "scripts": {
     "test": "cross-env NODE_ENV=test mocha 'src/**/*.test.js'",
-    "start": "babel-node src"
+    "start": "babel-node src",
+    "start:forever": "forever start src"
   },
   "dependencies": {
+    "forever": "^3.0.4",
     "isomorphic-fetch": "^3.0.0",
     "node-cache": "^5.1.2",
     "universal-dotenv": "^3.2.3"

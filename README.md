@@ -16,5 +16,11 @@
 - Create `.env.local` at the project root
   - use `.env.example` as a guide
 
-## Run
+## Run 
+
+### Local Development
 - `npm start` or `yarn start`
+
+### As a "Process"
+- `npm start:forever` or `yarn start:forever` 
+
