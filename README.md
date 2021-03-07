@@ -1,4 +1,5 @@
-# Github Release Bot
+# GitHub Release Bot
+> Monitor releases from GitHub and output them to a chat client like Discord
 
 ## Supported Output
 - Discord
@@ -15,5 +16,5 @@
 - Create `.env.local` at the project root
   - use `.env.example` as a guide
 
-# Run
+## Run
 - `npm start` or `yarn start`
