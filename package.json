@@ -1,0 +1,27 @@
+{
+  "name": "github-release-bot",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "cross-env NODE_ENV=test mocha 'src/**/*.test.js'",
+    "start": "babel-node src"
+  },
+  "dependencies": {
+    "isomorphic-fetch": "^3.0.0",
+    "node-cache": "^5.1.2",
+    "universal-dotenv": "^3.2.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.0",
+    "@babel/core": "^7.13.8",
+    "@babel/node": "^7.13.0",
+    "@babel/plugin-transform-runtime": "^7.13.9",
+    "@babel/preset-env": "^7.13.9",
+    "@babel/register": "^7.13.8",
+    "cross-env": "^7.0.3",
+    "expect": "^26.6.2",
+    "mocha": "^8.3.1",
+    "nock": "^13.0.10"
+  }
+}
